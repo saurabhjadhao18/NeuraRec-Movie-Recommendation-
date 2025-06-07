@@ -20,16 +20,26 @@ bash
 Copy
 Edit
 NeuraRec/
-├── data/                  # Raw and processed dataset files
-├── models/                # Trained models and serialized pickles
-├── notebooks/             # Jupyter notebooks for EDA and modeling
-├── src/                   # Core source code (model training, preprocessing)
-│   ├── preprocessing.py
-│   ├── recommenders.py
-│   └── utils.py
-├── results/               # Visualizations, performance metrics
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
+├── data/   
+# Raw and processed dataset files
+├── models/    
+# Trained models and serialized pickles
+├── notebooks/    
+# Jupyter notebooks for EDA and modeling
+├── src/  
+# Core source code (model training, preprocessing)
+
+│ 
+├── preprocessing.py
+│ 
+├── recommenders.py
+│ └── utils.py
+├── results/             \
+# Visualizations, performance metrics
+├── README.md          
+# Project documentation
+└── requirements.txt      
+# Python dependencies
 🛠 How It Works
 Data Preprocessing
 
@@ -37,13 +47,17 @@ Cleaned and normalized large-scale data using Pandas and NumPy.
 
 Handled missing data and outliers to improve model input quality.
 
-Modeling
+
+
+#Modeling
 
 Applied various Surprise algorithms like SVD, SlopeOne, KNNBaseline.
 
 Developed hybrid ensemble using XGBoost for improved collaborative predictions.
 
-Evaluation
+
+
+#Evaluation
 
 Used metrics such as RMSE, MAE, and Top-N Precision.
 
@@ -52,6 +66,8 @@ Grid search tuning for model selection and performance optimization.
 Post-processing
 
 FuzzyWuzzy used to enhance string matching and ranking of recommendations.
+
+
 
 📊 Results
 RMSE: Reduced by 12% after hyperparameter tuning.
