@@ -65,10 +65,3 @@ NeuraRec/
 - **Accuracy:** Achieved **85%** accuracy in personalized recommendations.
 
 ---
-
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/NeuraRec.git
-   cd NeuraRec
